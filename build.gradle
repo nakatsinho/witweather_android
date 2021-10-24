@@ -1,6 +1,11 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.5.31"
+//    ext.kotlin_version = "1.5.31"
+//    FIXME:: Infelizmente ainda nao tenho dominio dos updates acima da versao 1.4.0 do Kotlin! Ate' entao so trabalhei nessa versao, depois migrei para o Flutter...
+    ext {
+        kotlin_version = "1.5.10"
+        compose_version = '1.0.0-beta09'
+    }
     repositories {
         google()
         mavenCentral()
@@ -18,7 +23,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
+//        jcenter() // Warning: this repository is going to shut down soon
     }
 }
 
