@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -33,6 +35,8 @@ android {
     }
     buildFeatures{
         compose true
+        dataBinding true
+
     }
     composeOptions{
         kotlinCompilerExtensionVersion compose_version
@@ -55,8 +59,28 @@ dependencies {
 
     // Get URL Images
     implementation "com.google.accompanist:accompanist-coil:0.12.0"
+
+    // Get Source Images with Glide - Library to use for imagesLibrary to use for images
+    implementation "com.github.bumptech.glide:glide:4.12.0"
+
     //Compose Navigation Route components
     implementation("androidx.navigation:navigation-compose:2.4.0-alpha04")
+
+    //Http Requests with Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.3.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+
+    implementation "com.google.dagger:hilt-android:2.31-alpha"
+
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3"
+
+    //Additional/helper libraries for Retrofit
+    implementation "io.reactivex.rxjava2:rxjava:2.1.1"
+    implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
