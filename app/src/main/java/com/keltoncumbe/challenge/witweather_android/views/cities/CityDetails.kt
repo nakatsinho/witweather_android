@@ -159,12 +159,12 @@ fun Cards()
                 VerticalButton(tag = "Wind",vector = Icons.Filled.AirplanemodeActive, text = "8.49 \nKM/H")
             }
             item {
-                VerticalButton(tag = "Sunrise",vector = Icons.Filled.DirectionsCar, text = "Cars") }
+                VerticalButton(tag = "Sunrise",vector = Icons.Filled.WbSunny, text = "Cars") }
             item {
-                VerticalButton(tag = "Sunset",vector = Icons.Filled.Business, text = "Hotel")
+                VerticalButton(tag = "Sunset",vector = Icons.Filled.Mood, text = "Hotel")
             }
             item {
-                VerticalButton(tag = "Pressu",vector = Icons.Filled.LocalShipping, text = "Cruise")
+                VerticalButton(tag = "Pressu",vector = Icons.Filled.Compress, text = "Cruise")
             }
         }
     }
