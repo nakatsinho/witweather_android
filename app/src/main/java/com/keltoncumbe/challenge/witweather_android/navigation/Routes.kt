@@ -12,7 +12,7 @@ import com.keltoncumbe.challenge.witweather_android.views.cities.CityDetails
 fun Routes(){
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = Maps.DetailScreen.route)
+    NavHost(navController = navController, startDestination = Maps.AllCitiesList.route)
     {
         composable(route = Maps.Splash.route)
         {
