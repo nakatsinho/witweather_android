@@ -8,9 +8,9 @@ I was assigned the link (http://openweathermap.org/api), so that I could consume
 
 Below I present the built interface: 
 <div style="display: inline_block">
-<img  alt="Kcumbe-Splash" src="https://github.com/nakatsinho/witweather_flutter/blob/main/preview/screenshot-1635089160558.png" width="280px">
-<img  alt="Kcumbe-AllCities" src="https://github.com/nakatsinho/witweather_flutter/blob/main/preview/screenshot-1635089104875.png" width="280px">
-<img  alt="Kcumbe-Details" src="https://github.com/nakatsinho/witweather_flutter/blob/main/preview/screenshot-1635089081718.png" width="280px">
+<img  alt="Kcumbe-Splash" src="https://github.com/nakatsinho/witweather_android/blob/master/preview/screenshot-1635140284213.png" width="280px">
+<img  alt="Kcumbe-AllCities" src="https://github.com/nakatsinho/witweather_android/blob/master/preview/screenshot-1635140570735.png" width="280px">
+<img  alt="Kcumbe-Details" src="https://github.com/nakatsinho/witweather_android/blob/master/preview/screenshot-1635141720926.png" width="280px">
  </div>
 
 ## Getting Started
