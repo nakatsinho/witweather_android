@@ -21,12 +21,22 @@ I present now, the packages I used during the construction of my code
 
 A few resources to get you started if this is your first Flutter project:
 
-- [HEXCOLOR](https://pub.dev/packages/hexcolor)- To get colors Using HEX Number
-- [Http](https://pub.dev/packages/http) - To get Response from API Request
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Bumptech Glide](https://github.com/bumptech/glide) - A modern way to get images from source using imagesLibrary
+- [Jetpack Compose - Accompanist Coil](https://coil-kt.github.io/coil/compose/) - To Get Images from URL
+- [Android Parcelable](https://developer.android.com/reference/android/os/Parcelable) - Used to send messages between components 
+- [Android Retrofit](https://square.github.io/retrofit/) - Used to make HTTP client requests
+- [Hilt](https://dagger.dev/hilt/) - Hilt provides a standard way to incorporate Dagger dependency injection into an Android application.
+- [Android Navigation Compose](https://developer.android.com/jetpack/compose/navigation) - To manage routes navigation using NavController.
+- [Android Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle#kts) - These components help you produce better-organized, and often lighter-weight code, that is easier to maintain.
 
 ## Unsolved Bugs
 
 During my developement process i stack on the following bugs:
-- Time Zone Coversion
-- Sunrise & SunSet time conversion
+- Show data on Composable Components
+- Finish the Details City View
+- Retrive data from Api response method
+- Resolve route maps in "onClick action button"
+
+## Features
+- Date / Time conversion
+- Show Data on View Components
