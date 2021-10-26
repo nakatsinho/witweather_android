@@ -15,7 +15,7 @@ Below I present the built interface:
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Android/Kotlin application.
 
 I present now, the packages I used during the construction of my code 
 
